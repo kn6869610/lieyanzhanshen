@@ -10,6 +10,12 @@
 		{
 			return "http://127.0.0.1/?server_ip=你的服務器IP&server_port=9001&pass_user_name=<?=$user?>&encrypted_string=<?=$password?>&server_id=test_1&source=0&sub_source=&flags=4&time=1392385580&agent=9377&server=292&is_client=true";
 		}
+		
+	function getCDNPath()
+		{
+			//一?
+			return "http://220.133.19.139/res";
+		}
 </code></pre>
 
 
